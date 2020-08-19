@@ -10,9 +10,9 @@ export default function Chat({ name, message, profilePic, timeStamp }) {
         <Avatar className="chat-image" alt={name} src={profilePic} />
         <div className="chat-details">
           <h2>{name}</h2>
-          <p className="chat-timestamp">{timeStamp}</p>
           <p>{message}</p>
         </div>
+        <p className="chat-timestamp">{timeStamp}</p>
       </div>
     </Link>
   );

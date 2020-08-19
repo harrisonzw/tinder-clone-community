@@ -23,7 +23,9 @@ export default function ChatScreen() {
   };
   return (
     <div className="chat-screen">
-      <p className="chat-screen-timestamp">YOU MATCH WITH ANNIE ON 7/01/20</p>
+      <p className="chat-screen-timestamp">
+        YOU MATCH WITH {messages[0].name} ON 7/01/20
+      </p>
 
       {messages.map(message =>
         message.name ? (

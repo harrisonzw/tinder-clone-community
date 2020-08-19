@@ -15,12 +15,13 @@ function App() {
           <Route path="/chat/:person">
             <Header backButton="/chat" />
             <ChatScreen />
-            <Chats />
           </Route>
+
           <Route path="/chat">
             <Header backButton="/" />
             <Chats />
           </Route>
+
           <Route path="/">
             <Header />
             <TinderCards />

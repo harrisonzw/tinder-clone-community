@@ -7,7 +7,7 @@ export default function Chats() {
     <div className="chats">
       <Chat
         name="Craig"
-        message="Dean Dean Dean! Here is your jar of olives."
+        message="Dean Dean Dean! Would you like a jar of olives?"
         timeStamp="40 seconds ago"
         profilePic="https://vignette.wikia.nocookie.net/community-sitcom/images/1/1c/Pelton_Season_Three.jpg/revision/latest?cb=20140123184957"
       />
